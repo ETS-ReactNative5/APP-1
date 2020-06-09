@@ -1,0 +1,8 @@
+---
+applications:
+ - name: Fruitapp
+   memory: 256MB
+   disk_quota: 2048M
+   routes:
+   - route: fruitapp.mybluemix.net
+   command: npm run start-prod
